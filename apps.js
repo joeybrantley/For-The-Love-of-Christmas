@@ -25,12 +25,12 @@ function createGreeting(){
   let greeting = hourOfDay();
   document.write(greeting + ',' + userName + "!");
  }
- 
+
  function getUserName(){
-     let userName = prompt("What is your name?");
+     let userName = prompt("What is your name?"); // AmAndA >> amanda 
      return userName;
  }
- 
+
  function hourOfDay(){
      let currentHour = prompt("What is the current hour of the day (1-24)");
      let greeting = "";
@@ -43,7 +43,7 @@ function createGreeting(){
      }else {
          greeting = "Welcome";
      }
- 
+
      return greeting;
  }
  
