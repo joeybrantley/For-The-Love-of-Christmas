@@ -3,7 +3,7 @@
 const button = document.querySelector('button');
 const paragraph = document.querySelector('p');
 
-button.addEventListener('click', updateButton);
+
 
 function updateButton() {
   if (button.value === 'What is the best Christmas movie?') {
@@ -15,6 +15,8 @@ function updateButton() {
     paragraph.textContent = 'Christmas Vacation.';
   }
 }
+
+button.addEventListener('click', updateButton);
 
 
 let userName = prompt("What is your name?");
