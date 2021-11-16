@@ -23,11 +23,11 @@ function updateButton() {
 function createGreeting(){
   let userName = getUserName();
   let greeting = hourOfDay();
-  document.write(greeting + ',' + userName + "!");
+  document.write(greeting + ' , ' + userName + "!");
  }
 
  function getUserName(){
-     let userName = prompt("What is your name?"); // AmAndA >> amanda 
+     let userName = prompt("What is your name?"); 
      return userName;
  }
 
