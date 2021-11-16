@@ -27,7 +27,7 @@ function createGreeting(){
  }
  
  function getUserName(){
-     let userName = prompt("What is your name?"); // AmAndA >> amanda 
+     let userName = prompt("What is your name?");
      return userName;
  }
  
