@@ -16,14 +16,10 @@ function updateButton() {
   }
 }
 
-
-
-
-
 function createGreeting(){
   let userName = getUserName();
   let greeting = hourOfDay();
-  document.write(greeting + ' , ' + userName + "!");
+  document.write(greeting + ', ' + userName + "!");
  }
 
  function getUserName(){
