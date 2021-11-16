@@ -3,7 +3,7 @@
 const button = document.querySelector('button');
 const paragraph = document.querySelector('p');
 
-
+button.addEventListener('click', updateButton);
 
 function updateButton() {
   if (button.value === 'What is the best Christmas movie?') {
@@ -17,7 +17,7 @@ function updateButton() {
 }
 
 
-button.addEventListener('click', updateButton);
+
 
 
 function createGreeting(){
