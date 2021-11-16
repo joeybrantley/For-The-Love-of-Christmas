@@ -42,4 +42,16 @@ function createGreeting(){
 
      return greeting;
  }
+
+ function sayHello(){
+  let answer = prompt("Do you like Christmas?");
+  if(answer == "yes"){
+      alert("Merry Christmas!")
+  } else{
+      alert("Bah humbug!");
+  }
+}
+
+
+
  
