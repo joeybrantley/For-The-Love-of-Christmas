@@ -43,17 +43,23 @@ function createGreeting(){
      return greeting;
  }
 
- function sayHello(){
-  let answer = prompt("Do you like Christmas?");
-  if(answer == "yes"){
-      alert("Merry Christmas!")
-  } else{
-      alert("Bah humbug!");
+
+let answer = "";
+    do{
+        answer = prompt("How many presents are you giving out for Christmas?");
+        if(answer < 2){
+            alert("Bah humbug");
+            alert("Try again");
+        } else{
+            alert("Bless you! Merry Christmas!!");
+        }
+    }while(answer < 2)
+
+
+    function displayCandyCanes(){
+      let number = prompt("how many candy canes do you give this website?");
+      for(let CandyCane = 1; CandyCane <= number; CandyCane++ ){
+          document.write('<img src="images/Candy Cane.jpg"/>');
+      }
   }
-}
-
-sayHello();
-
-
-
  
