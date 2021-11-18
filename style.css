@@ -103,7 +103,19 @@ p{
     margin-top: 30px;
 }
 
+p li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
 
+p li a{
+    color: #FE0000;
+}
+
+p li a:hover{
+    color: #F4F2F3;
+}
 
 
 
